@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="icon" href="translatePNG.png" />
+    <title>ENCRIPTADOR</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section class="section_uno">
+            <textarea class="text-area" cols="20" rows="10" placeholder="Ingrese el texto"></textarea>
+            <div>
+                <h6 class="informacion">Solo letras minusculas y sin acentos</h6>
+            </div>
+            <div>
+                <div class="botones">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">ENCRIPTAR</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">DESENCRIPTAR</button>
+                </div>
+            </div>
+        </section>
+        <section class="section_dos">
+            <textarea id="mensaje" class="mensaje" cols="20" rows="10" placeholder="Ingrese el texto"></textarea>
+            <div class="img">
+                <img src="translate.jpg">
+            </div>
+            <div>
+                <button id="btn-copiar" class="btn-copiar" onclick="copiar()">COPIAR</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
